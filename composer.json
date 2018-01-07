@@ -1,0 +1,6 @@
+{
+    "require": {
+        "philo/laravel-blade": "dev-master",
+        "nesbot/carbon": "1.22.*"
+    }
+}

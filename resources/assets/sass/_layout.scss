@@ -1,0 +1,61 @@
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $font-stack;
+    font-size: 16px;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+    background-color: $bg-color;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans Condensed";
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+
+    em {
+        font-style: normal;
+        color: $accent-color;
+    }
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body > article {
+    width: 50%;
+
+    > header {
+        padding: 90px 50px;
+        border-bottom: 1px solid $grey-light-color;
+    }
+
+    > section {
+        padding: 90px 50px;
+        border-bottom: 1px solid $grey-light-color;
+    }
+
+    > footer {
+        padding: 90px 50px;
+        color: $grey-dark-color;
+
+        i {
+            color: #c0392b;
+        }
+    }
+}
+
+body > aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+}

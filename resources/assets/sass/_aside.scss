@@ -1,0 +1,16 @@
+body > aside {
+    display: flex;
+    align-items: center;
+    background: url('img/wonderwoman.jpg') top center no-repeat $accent-color;
+    background-size: cover;
+
+    a {
+        display: none;
+        margin: 0 auto;
+        font-size: 90px;
+
+        i {
+            color: rgba(255, 255, 255, 0.5);
+        }
+    }
+}

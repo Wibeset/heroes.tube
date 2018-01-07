@@ -1,0 +1,29 @@
+body > article {
+
+    .movie {
+
+        header {
+            margin-bottom: 15px;
+
+            em {
+                color: $grey-dark-color;
+            }
+        }
+
+        h3 {
+            margin: 30px 0 15px 0;
+        }
+
+        ul {
+
+            li {
+                padding: 8px;
+                border-bottom: 1px solid darken($grey-light-color, 5%);
+
+                &:first-child {
+                    padding-top: 0;
+                }
+            }
+        }
+    }
+}
